@@ -1,0 +1,13 @@
+{
+  "manifest_version":2,
+  "name":"ip looker",
+  "version":"0.0.1",
+  "description":"看看当前IP",
+  "browser_action":{
+    "default_title":"查看我的ip",
+    "default_popup":"popup.html"
+  },
+  "permissions":[
+    "http://sneezryworks.sinaapp.com/ip.php"
+  ]
+}

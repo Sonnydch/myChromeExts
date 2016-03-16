@@ -1,0 +1,12 @@
+{
+  "manifest_version":2,
+  "name":"永远点不到搜索百度的按钮",
+  "version":"1.0",
+  "description":"一个小恶作剧",
+  "content_scripts":[
+    {
+      "matches":["*://www.baidu.com/"],
+      "js":["js/cannot_touch.js"]
+    }
+  ]
+}
