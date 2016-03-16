@@ -1,3 +1,12 @@
+/**
+* @Author: Sonny Du <sonny>
+* @Date:   03-23-16-Mar-2016
+* @Email:  sunnydu999@gmail.com
+* @Last modified by:   sonny
+* @Last modified time: 03-23-16-Mar-2016
+* @License: MIT
+*/
+
 function my_clock(el){
   var today = new Date();
   var h = today.getHours();

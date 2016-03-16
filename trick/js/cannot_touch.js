@@ -1,3 +1,14 @@
+/**
+* @Author: Sonny Du <sonny>
+* @Date:   13-Mar-2016
+* @Email:  sunnydu999@gmail.com
+* @Last modified by:   sonny
+* @Last modified time: 16-Mar-2016
+* @License: MIT
+*/
+
+
+
 function btn_move(el, mouseLeft, mouseTop){
   var leftRnd = (Math.random()-0.5)*20;
   var topRnd = (Math.random()-0.5)*20;
