@@ -1,0 +1,15 @@
+{
+  "manifest_version":2,
+  "name":"保存当前页面所有图片",
+  "version":"0.0.1",
+  "description":"用来保存页面中所有图片",
+  "background":{
+    "scripts":["background.js"],
+    "persistent":false
+  },
+  "permissions":[
+    "activeTab",
+    "contextMenus",
+    "downloads"
+  ]
+}
