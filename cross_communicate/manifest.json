@@ -1,0 +1,14 @@
+{
+  "manifest_version":2,
+  "name":"与后台交互",
+  "version":"1.0",
+  "description":"前台与后台交互",
+  "background":{  "scripts":[
+      "js/bg.js"
+    ]
+  },
+  "browser_action":{
+    "default_title":"与后台交互",
+    "default_popup":"popup.html"
+  }
+}
